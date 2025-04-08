@@ -222,7 +222,6 @@ margin-top: 3px;
 }
 
 .carouselSection, 
-.planSection,
 .faqSection,
 .getStartedSection{
     /* border: 2px solid red; */
@@ -231,7 +230,6 @@ margin-top: 3px;
 }
 
 .carouselSection h2,
-.planSection h2,
 .reasonToJoinSection h2,
 .faqSection h2{
     /* border: 2px solid red; */
@@ -240,7 +238,6 @@ margin-top: 3px;
 }
 
 .carouselcardcontainer,
-.plansectioncontainer,
 .faqsectioncontainer{
     /* border: 2px solid green; */
     height: 100%;
@@ -289,7 +286,22 @@ margin-top: 3px;
     transition: 1s;
     cursor: pointer;
 }
+.planSection {
+  padding: 40px 0;
+  text-align: center;
+}
 
+.planSection h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.plansectioncontainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px; /* Added gap between the plan cards */
+  flex-wrap: wrap;
+}
 .plancard{
      /* border: 2px solid green;  */
     height: 40vh;
